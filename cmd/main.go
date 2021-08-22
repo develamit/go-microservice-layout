@@ -1,8 +1,8 @@
 package main
 
 import (
-	//"github.com/develamit/go-microservice-layout/pkg/fileWrite"
-	"go-microservice-layout/pkg/fileWrite"
+	"github.com/develamit/go-microservice-layout/pkg/fileWrite"
+	//"go-microservice-layout/pkg/fileWrite"
 	"fmt"
 )
 
