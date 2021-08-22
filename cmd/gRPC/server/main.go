@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/develamit/go-microservice-layout/pkg/fileWrite"
-	//"go-microservice-layout/pkg/fileWrite"
 	"fmt"
 )
 
@@ -10,10 +9,10 @@ func main() {
     fmt.Printf("Main Function")
 
     astatus := fileWrite.AStatus{
-        Id:          1,
-        Name:   "Vihaan"
+        Id:          2,
+        Name:   "Vihaan1231",
     }
 
-    fileWrite.writer(astatus)
+    fileWrite.Writer(astatus)
 
 }

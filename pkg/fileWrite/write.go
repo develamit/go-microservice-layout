@@ -12,7 +12,7 @@ type AStatus struct {
 	Name string
 }
 
-func writer(aData AStatus) {
+func Writer(aData AStatus) {
 	fmt.Printf("fileWrite Function")
 	file, _ := json.MarshalIndent(aData, "", " ")
 	_ = ioutil.WriteFile("/tmp/test.json", file, 0644)
